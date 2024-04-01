@@ -3,7 +3,7 @@ package com.Batch.DSA.Stack;
 import java.util.*;
 //Code to Reverse a Stack
 
-public class P02ReverseStack {
+public class P04ReverseStack {
     public static void pushAtBottom(Stack<Integer> s, int data) {
         if(s.isEmpty()) {
             s.push(data);

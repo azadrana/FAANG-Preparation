@@ -1,6 +1,6 @@
 package com.Batch.DSA.Trie;
 
-public class P07TrieDsa {
+public class P01TrieDsa {
     public static String ans = "";
     static class Node {
         Node[] children = new Node[26];

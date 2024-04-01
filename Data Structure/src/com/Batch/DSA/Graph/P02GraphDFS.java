@@ -1,7 +1,7 @@
 package com.Batch.DSA.Graph;
 import java.util.*;
 
-public class P06GraphDFS {
+public class P02GraphDFS {
     static class Edge {
         int src;
         int dest;

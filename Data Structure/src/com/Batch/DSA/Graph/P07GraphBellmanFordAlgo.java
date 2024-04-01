@@ -1,7 +1,7 @@
 package com.Batch.DSA.Graph;
 import java.util.*;
 
-public class P06GraphBellmanFordAlgo {
+public class P07GraphBellmanFordAlgo {
     static class Edge {
         int src;
         int dest;

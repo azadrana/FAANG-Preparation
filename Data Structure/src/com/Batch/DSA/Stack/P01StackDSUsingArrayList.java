@@ -2,7 +2,7 @@ package com.Batch.DSA.Stack;
 
 import java.util.ArrayList;
 
-public class P02StackDSUsingArrayList {
+public class P01StackDSUsingArrayList {
     static class Stack {
         ArrayList<Integer> list = new ArrayList<>();
 

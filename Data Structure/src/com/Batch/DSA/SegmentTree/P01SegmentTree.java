@@ -1,8 +1,8 @@
-package com.Batch.DSA;
-public class P08SegmentTree
+package com.Batch.DSA.SegmentTree;
+public class P01SegmentTree
 {
     int st[];
-    P08SegmentTree(int arr[], int n)
+    P01SegmentTree(int arr[], int n)
     {
         int x = (int) (Math.ceil(Math.log(n) / Math.log(2)));
         int max_size = 2 * (int) Math.pow(2, x) - 1;
@@ -76,7 +76,7 @@ public class P08SegmentTree
     {
         int arr[] = {1, 3, 5, 7, 9, 11};
         int n = arr.length;
-        P08SegmentTree tree = new P08SegmentTree(arr, n);
+        P01SegmentTree tree = new P01SegmentTree(arr, n);
         System.out.println("Sum of values in given range = " +
                 tree.getSum(n, 1, 3));
         tree.updateValue(arr, n, 1, 10);

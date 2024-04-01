@@ -1,6 +1,6 @@
 package com.Batch.DSA.Queue;
 
-public class P03QueueUsingLinkedList {
+public class P02QueueUsingLinkedList {
     static class Node {
         int data;
         Node next;

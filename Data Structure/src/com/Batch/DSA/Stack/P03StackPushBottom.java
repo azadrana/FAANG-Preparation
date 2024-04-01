@@ -2,7 +2,7 @@ package com.Batch.DSA.Stack;
 
 import java.util.*;
 //To push an element at the bottom of a stack
-public class P02StackPushBottom {
+public class P03StackPushBottom {
     public static void pushAtBottom(Stack<Integer> s, int data) {
         if(s.isEmpty()) {
             s.push(data);

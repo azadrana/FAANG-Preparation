@@ -1,7 +1,7 @@
 package com.Batch.DSA.Graph;
 import java.util.*;
 
-public class P06GraphPrintAllPath {
+public class P12GraphPrintAllPath {
     static class Edge {
         int src;
         int dest;

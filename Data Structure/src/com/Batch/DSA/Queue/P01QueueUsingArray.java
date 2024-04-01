@@ -1,6 +1,6 @@
 package com.Batch.DSA.Queue;
 
-public class P03QueueUsingArray {
+public class P01QueueUsingArray {
     static class Queue {
         static int arr[];
         static int size;
