@@ -1,4 +1,4 @@
-package com.Batch.DSA;
+package com.Batch.DSA.LinkedList;
 
 class P01LinkedList {
 
