@@ -1,6 +1,6 @@
 package com.Batch.DSA.LinkedList;
 
-public class P01DetectCycleInLinkedList {
+public class P02DetectCycleInLinkedList {
 
     Node head;
     class Node{
@@ -48,7 +48,7 @@ public class P01DetectCycleInLinkedList {
     }
 
     public  static void main(String []args){
-        P01DetectCycleInLinkedList list = new P01DetectCycleInLinkedList();
+        P02DetectCycleInLinkedList list = new P02DetectCycleInLinkedList();
         list.createList("A");
         list.createList("B");
         list.createList("C");

@@ -1,7 +1,7 @@
 package com.Batch.DSA.Graph;
 import java.util.*;
 
-public class P06GraphTopologicalSort {
+public class P05GraphTopologicalSort {
     static class Edge {
         int src;
         int dest;

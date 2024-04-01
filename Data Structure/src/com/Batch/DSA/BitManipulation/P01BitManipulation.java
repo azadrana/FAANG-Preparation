@@ -1,6 +1,6 @@
 package com.Batch.DSA.BitManipulation;
 
-public class P09BitManipulation {
+public class P01BitManipulation {
 
     public static void main(String[] args) {
         int n = 5;//0101

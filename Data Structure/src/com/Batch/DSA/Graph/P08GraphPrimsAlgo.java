@@ -1,7 +1,7 @@
 package com.Batch.DSA.Graph;
 import java.util.*;
 
-public class P06GraphPrimsAlgo {
+public class P08GraphPrimsAlgo {
     static class Edge {
         int src;
         int dest;

@@ -3,7 +3,7 @@ package com.Batch.DSA.Tree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P04BuildBinaryTree {
+public class P01BuildBinaryTree {
 
     static class Node {
         int data;

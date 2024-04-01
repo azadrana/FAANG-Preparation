@@ -1,7 +1,7 @@
 package com.Batch.DSA.Graph;
 import java.util.*;
 
-public class P06GraphKosarajuAlgo {
+public class P09GraphKosarajuAlgo {
     static class Edge {
         int src;
         int dest;

@@ -2,7 +2,7 @@ package com.Batch.DSA.Graph;
 import java.util.*;
 
 
-public class P06GraphCycleDetectionDirected {
+public class P03GraphCycleDetectionDirected {
     static class Edge {
         int src;
         int dest;
