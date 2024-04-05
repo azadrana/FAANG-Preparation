@@ -41,6 +41,7 @@ public class P01BuildBinaryTree {
         }
     }
 
+    // Root, left subTree, Right subTree (Time complexity would be big O(n) )
     public static void preorder(Node root) {
         if(root == null) {
             System.out.print(-1+" ");
@@ -51,6 +52,7 @@ public class P01BuildBinaryTree {
         preorder(root.right);
     }
 
+    // Left subTree, Root, Right subTree (Time complexity would be big O(n) )
     public static void inorder(Node root) {
         if(root == null) {
             System.out.print(-1+" ");
@@ -61,6 +63,7 @@ public class P01BuildBinaryTree {
         inorder(root.right);
     }
 
+    // Left subTree,Right subTree, Root (Time complexity would be big O(n) )
     public static void postorder(Node root) {
         if(root == null) {
             System.out.print(-1+" ");
@@ -147,6 +150,6 @@ public class P01BuildBinaryTree {
         Node root = tree.buildTree(nodes);
 
         System.out.println(root.data);
-        System.out.println(height(root));
+//        System.out.println(height(root));
     }
 }
