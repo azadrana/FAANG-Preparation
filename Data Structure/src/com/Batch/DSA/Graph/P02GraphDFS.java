@@ -41,6 +41,7 @@ public class P02GraphDFS {
         visited[curr] = true;
         for(int i=0; i<graph[curr].size(); i++) {
             Edge e = graph[curr].get(i);
+            if(visited[i]==false)
             dfs(graph, e.dest, visited);
         }
     }
