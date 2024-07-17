@@ -1,6 +1,6 @@
 package com.Batch.Searching;
 
-public class RecursiveBinarySearch {
+public class P3RecursiveBinarySearch {
 
     public static int BinarySearch(int arr[], int l, int size, int key) {
         if (size >= 1) {
