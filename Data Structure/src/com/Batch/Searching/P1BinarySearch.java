@@ -1,6 +1,6 @@
 package com.Batch.Searching;
 
-public class BinarySearch {
+public class P1BinarySearch {
 
     public int BinarySearch(int arr[],int key) {
         if (arr.length == 0)
@@ -20,7 +20,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        BinarySearch ob = new BinarySearch();
+        P1BinarySearch ob = new P1BinarySearch();
         int arr [] ={2,3,4,10,40};
         int n = arr.length;
         int key = 5;

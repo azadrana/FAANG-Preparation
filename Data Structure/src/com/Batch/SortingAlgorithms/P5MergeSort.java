@@ -1,6 +1,6 @@
 package com.Batch.SortingAlgorithms;
 
-public class P15MergeSort {
+public class P5MergeSort {
    //time complexity = nlogn
     private static void conquer(int[] arr, int si, int mid, int ei) {
 //        O(n)
