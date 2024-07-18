@@ -1,8 +1,6 @@
 package com.Batch.DSA.D7LinkedList;
 
 class P01LinkedList {
-
-    Node head;
     private int size;
 
     P01LinkedList() {
@@ -19,6 +17,7 @@ class P01LinkedList {
             size++;
         }
     }
+    Node head;
 
     public void addFirst(String data) {
         Node newNode = new Node(data);
